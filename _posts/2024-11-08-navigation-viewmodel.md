@@ -2,12 +2,10 @@
 title: ViewModels with hilt and compose navigation
 date: 2024-11-07 12:00:00 +0000
 categories: [android, compose]
-tags: [viewmodel, hilt, compose navigation]
+tags: [android, viewmodel, hilt, compose, navigation]
 ---
 
-# ViewModels with hilt and compose navigation
-
-As per the official documentation, hilt is the recommended solution for dependency injection in Android apps, and works seamlessly with Compose. Hilt also integrates with the Navigation Compose library and gives a developer-friendly API to create ViewModels in Compose projects. One can also check https://developer.android.com/jetpack/compose/libraries#hilt-navigation
+As per the official documentation, hilt is the recommended solution for dependency injection in Android apps, and works seamlessly with Compose. Hilt also integrates with the Navigation Compose library and gives a developer-friendly API to create ViewModels in Compose projects. One can also check [Compose Hilt and Navigation](https://developer.android.com/jetpack/compose/libraries#hilt-navigation)
 
 We can use ***hiltViewModel()*** function to get an instance of a ViewModel which is annotated with ***@HiltViewModel***. Ex:
 
@@ -72,7 +70,8 @@ fun NavGraphBuilder.bottomSheetGraph(navController: NavController) {
 ```
 
 
-**Note**: *We need to ensure we navigate to this destination (bottomsheet) only from a host screen.*
+> **Note**: *We need to ensure we navigate to this destination (bottomsheet) only from a host screen.*
+{: .prompt-tip }
 
 ## Multiple ViewModels of the the same type within a scope
 
