@@ -119,9 +119,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: chethann/chethann.github.io
-    repo_id: chethann.github.io
-    category: comments
-    category_id: comments
+    repo_id: R_kgDONMd5Cw
+    category: General
+    category_id: DIC_kwDONMd5C84CkHaW
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
